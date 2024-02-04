@@ -1,7 +1,7 @@
 import Request from "../helpers/RequestHelper";
 
 const fetchData = async () => {
-  const res = await Request("post", "/mainpage/");
+  const res = await Request("post", "/");
   console.log(res);
   return res;
 };
